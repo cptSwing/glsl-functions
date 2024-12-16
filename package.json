@@ -2,7 +2,14 @@
 	"name": "glsl-functions",
 	"version": "0.0.1",
 	"description": "glsl utility functions",
-	"main": "index.js",
+	"export": {
+		".": {
+			"default": "./index.js"
+		},
+		"safeSign": {
+			"default": "./fragment/safeSign.frag"
+		}
+	},
 	"repository": "https://github.com/cptSwing/glsl-functions.git",
 	"author": "Jens Brandenburg <jens@jbrandenburg.de>",
 	"license": "MIT"
