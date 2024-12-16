@@ -1,13 +1,11 @@
 {
 	"name": "glsl-functions",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "glsl utility functions",
+	"type": "module",
 	"export": {
 		".": {
 			"default": "./index.js"
-		},
-		"safeSign": {
-			"default": "./fragment/safeSign.frag"
 		}
 	},
 	"repository": "https://github.com/cptSwing/glsl-functions.git",
